@@ -1,0 +1,12 @@
+@import '../partials/globals/variables';
+
+footer{
+    background-color: #ff7360;
+    width: 100%;
+    .footer-div{
+        @include espaciado;
+        .footer-div-child{
+            padding: 5px;
+        }
+    }
+}

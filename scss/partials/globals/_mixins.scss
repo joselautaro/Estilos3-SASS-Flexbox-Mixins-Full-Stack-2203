@@ -1,0 +1,11 @@
+@mixin espaciado {
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+@mixin menu {
+    margin: 10px;
+    padding: 10px;
+}

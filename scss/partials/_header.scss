@@ -1,0 +1,27 @@
+@import '../partials/globals/variables';
+
+header{
+    background-color: #7052ff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    // Comienza el nesting
+    nav{
+        @include espaciado;
+        padding: 5px;
+        .logo{
+            font-family: 'Anton', sans-serif;
+            font-size: 20px;
+        }
+        a{
+            font-size: large;
+            @include menu;
+            color: cornsilk;
+            text-decoration: none;
+            font-family: $tipo-de-letra;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

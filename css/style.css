@@ -1,0 +1,122 @@
+header {
+  background-color: #7052ff;
+  width: 100%;
+  position: fixed;
+  top: 0; }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px; }
+    header nav .logo {
+      font-family: 'Anton', sans-serif;
+      font-size: 20px; }
+    header nav a {
+      font-size: large;
+      margin: 10px;
+      padding: 10px;
+      color: cornsilk;
+      text-decoration: none;
+      font-family: Arial; }
+      header nav a:hover {
+        color: black; }
+
+main {
+  background-color: #ebe4e4;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: 140px; }
+  main h1 {
+    margin-top: 90px;
+    text-align: center;
+    font-family: Arial; }
+  main article .div-container {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    main article .div-container .div-card-1,
+    main article .div-container .div-card-2,
+    main article .div-container .div-card-3,
+    main article .div-container .div-card-4,
+    main article .div-container .div-card-5,
+    main article .div-container .div-card-6,
+    main article .div-container .div-card-7,
+    main article .div-container .div-card-8,
+    main article .div-container .div-card-9,
+    main article .div-container .div-card-10 {
+      background-color: #f2e3cf;
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 220px;
+      margin: 7px;
+      padding: 4px;
+      height: 220px; }
+      main article .div-container .div-card-1:hover,
+      main article .div-container .div-card-2:hover,
+      main article .div-container .div-card-3:hover,
+      main article .div-container .div-card-4:hover,
+      main article .div-container .div-card-5:hover,
+      main article .div-container .div-card-6:hover,
+      main article .div-container .div-card-7:hover,
+      main article .div-container .div-card-8:hover,
+      main article .div-container .div-card-9:hover,
+      main article .div-container .div-card-10:hover {
+        background-color: powderblue;
+        transition: background-color 1s;
+        box-shadow: 5px 5px 5px black; }
+      main article .div-container .div-card-1 h3,
+      main article .div-container .div-card-2 h3,
+      main article .div-container .div-card-3 h3,
+      main article .div-container .div-card-4 h3,
+      main article .div-container .div-card-5 h3,
+      main article .div-container .div-card-6 h3,
+      main article .div-container .div-card-7 h3,
+      main article .div-container .div-card-8 h3,
+      main article .div-container .div-card-9 h3,
+      main article .div-container .div-card-10 h3 {
+        text-align: center;
+        font-family: Arial; }
+      main article .div-container .div-card-1 p,
+      main article .div-container .div-card-2 p,
+      main article .div-container .div-card-3 p,
+      main article .div-container .div-card-4 p,
+      main article .div-container .div-card-5 p,
+      main article .div-container .div-card-6 p,
+      main article .div-container .div-card-7 p,
+      main article .div-container .div-card-8 p,
+      main article .div-container .div-card-9 p,
+      main article .div-container .div-card-10 p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif; }
+      main article .div-container .div-card-1 .div-img,
+      main article .div-container .div-card-2 .div-img,
+      main article .div-container .div-card-3 .div-img,
+      main article .div-container .div-card-4 .div-img,
+      main article .div-container .div-card-5 .div-img,
+      main article .div-container .div-card-6 .div-img,
+      main article .div-container .div-card-7 .div-img,
+      main article .div-container .div-card-8 .div-img,
+      main article .div-container .div-card-9 .div-img,
+      main article .div-container .div-card-10 .div-img {
+        margin-top: 20px;
+        text-align: center; }
+
+footer {
+  background-color: #ff7360;
+  width: 100%; }
+  footer .footer-div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    footer .footer-div .footer-div-child {
+      padding: 5px; }
+
+* {
+  margin: 0;
+  padding: 0; }
